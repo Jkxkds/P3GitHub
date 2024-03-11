@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner meow = new Scanner(System.in);
 
         System.out.println("Por favor, introduce un número:");
-        int number = scanner.nextInt();
+        int number = meow.nextInt();
 
         if (number == 6) {
             System.out.println("¡Has acertado!");
@@ -11,6 +11,6 @@ public class Main {
             System.out.println("Lo siento, no has acertado. El número era 6.");
         }
 
-        scanner.close();
+        meow.close();
     }
 }
