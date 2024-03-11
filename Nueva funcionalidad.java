@@ -8,9 +8,10 @@ public class Main {
         if (number == 6) {
             System.out.println("¡Has acertado!");
         } else {
-            System.out.println("Lo siento, no has acertado. El número era 6.");
+            System.out.println("No has acertado. El número era 6.");
         }
 
         meow.close();
     }
 }
+//cambio
